@@ -10,7 +10,7 @@ if ( valorGlic < 100 ){
 }else if  (valorGlic <= 140){
     res.innerHTML = `<p>Sua glicose está à ${valorGlic}mg/dl, e foi classificada como <strong>ELEVADA</strong>, você precisa cuidar da sua saúde!</p>`
 }else{
-    res.innerHTML = `<p>Sua glicose está à ${valorGlic}mg/dl, e foi classificada como <strong>ELEVADA</strong>, você precisa cuidar da sua saúde!  Não esquece a insulina.</p>`
+    res.innerHTML = `<p>Sua glicose está à ${valorGlic}mg/dl, e foi classificada como <strong>DIABETES</strong>, você precisa cuidar da sua saúde!  Não esquece a insulina.</p>`
 }
 
 }
